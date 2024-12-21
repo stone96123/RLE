@@ -3,7 +3,7 @@ from PIL import Image
 import pdb
 import os
 
-data_path = '/media/data2/zyk/tpami/ICCV/SYSU-MM01/'
+data_path = '/data/data/sysu'
 
 rgb_cameras = ['cam1','cam2','cam4','cam5']
 ir_cameras = ['cam3','cam6']
@@ -66,10 +66,10 @@ def read_imgs(train_image):
        
 # rgb imges
 train_img, train_label = read_imgs(files_rgb)
-np.save(data_path + 'train_rgb_resized_img.npy', train_img)
-np.save(data_path + 'train_rgb_resized_label.npy', train_label)
+np.save(data_path + 'train_rgb_resized_img192.npy', train_img)
+np.save(data_path + 'train_rgb_resized_label192.npy', train_label)
 
 # ir imges
 train_img, train_label = read_imgs(files_ir)
-np.save(data_path + 'train_ir_resized_img.npy', train_img)
-np.save(data_path + 'train_ir_resized_label.npy', train_label)
+np.save(data_path + 'train_ir_resized_img192.npy', train_img)
+np.save(data_path + 'train_ir_resized_label192.npy', train_label)
