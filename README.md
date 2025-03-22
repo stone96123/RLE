@@ -45,7 +45,7 @@ python test.py --mode all --resume sysu.t --gpu 0 --dataset sysu
 ## Citation
 Please kindly cite this paper in your publications if it helps your research:
 ```bash
-@article{tan2024rle,
+@inproceedings{tan2024rle,
   title={RLE: A Unified Perspective of Data Augmentation for Cross-Spectral Re-Identification},
   author={Tan, Lei and Zhang, Yukang and Han, Keke and Dai, Pingyang and Zhang, Yan and WU, YONGJIAN and Ji, Rongrong},
   journal={Advances in Neural Information Processing Systems},
