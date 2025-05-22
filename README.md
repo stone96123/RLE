@@ -48,7 +48,7 @@ Please kindly cite this paper in your publications if it helps your research:
 @inproceedings{tan2024rle,
   title={RLE: A Unified Perspective of Data Augmentation for Cross-Spectral Re-Identification},
   author={Tan, Lei and Zhang, Yukang and Han, Keke and Dai, Pingyang and Zhang, Yan and WU, YONGJIAN and Ji, Rongrong},
-  journal={Advances in Neural Information Processing Systems},
+  booktitle={Advances in Neural Information Processing Systems},
   volume={37},
   pages={126977--126996},
   year={2024}
